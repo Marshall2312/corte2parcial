@@ -1,0 +1,27 @@
+<web-app xmlns="http://java.sun.com/xml/ns/javaee" version="3.0">
+    <servlet>
+        <servlet-name>ClienteControl</servlet-name>
+        <servlet-class>com.veterinaria.presentacion.ClienteControl</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ClienteControl</servlet-name>
+        <url-pattern>/ClienteControl</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>MascotaControl</servlet-name>
+        <servlet-class>com.veterinaria.presentacion.MascotaControl</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>MascotaControl</servlet-name>
+        <url-pattern>/MascotaControl</url-pattern>
+    </servlet-mapping>
+    <servlet>
+    <servlet-name>ClienteControl</servlet-name>
+    <servlet-class>com.veterinaria.presentacion.ClienteControl</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>ClienteControl</servlet-name>
+    <url-pattern>/cliente</url-pattern>
+</servlet-mapping>
+</web-app>
